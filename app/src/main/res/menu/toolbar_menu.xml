@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/assingment"
+        android:icon="@drawable/ic_assignment_ind_black_24dp"
+        android:id="@+id/assingnmentItem"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:title="@string/timer_second"
+        android:icon="@drawable/ic_av_timer_black_24dp"
+        android:id="@+id/timerItem"
+        app:showAsAction="ifRoom">
+    </item><item
+    android:title="@string/turned_in"
+    android:icon="@drawable/ic_assignment_turned_in_black_24dp"
+    android:id="@+id/turnedInItem"
+    app:showAsAction="never">
+</item>
+
+</menu>
